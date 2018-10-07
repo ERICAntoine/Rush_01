@@ -1,0 +1,244 @@
+
+* {
+    font-size:12px;  
+    font-family: sans-serif; 
+}
+body
+{
+    margin: 0;
+    background: url(trianglify.png);
+}
+#header {
+    position: relative;
+    top: 0px;
+    color:white;
+    width: 100%;
+    height: 75px;
+    left: 0px;
+    border: 0px;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0 auto;    
+    padding-left: 5cm;
+    z-index: 3;
+}
+        
+#top-menu li {
+    padding-right: 85px;
+}
+
+
+#footer {
+    color: white;
+    text-align: center;
+    width: 100%;
+    height:187px;
+    padding-top:3cm;
+    position: absolute;    
+    font-weight: 300;    
+}
+
+
+
+/* !section footer */
+label {
+  display: inline-block;
+  width: 26%;
+}
+label:hover
+{
+    cursor:pointer;
+}
+.title{
+    color:white;
+    font-family: 'Cerebri Sans',sans-serif;
+    background:  gray;
+    height:50px;
+    padding:15px 20px;
+    }
+    
+#firstname,#phoneNumber
+{
+    border: 2px dotted blue;
+}
+.sexe
+{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+select
+{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size:12px;
+}
+input[type=text]{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size:12px;
+}
+input[type=email] {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size:12px;
+}
+input[type=url] {
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size:12px;
+}
+input[type=tel]{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size:12px;
+}
+
+input[type=date]{
+    width: 60%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size:12px;
+}
+
+input[type=submit] {
+    background-color:  gray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 2px 0px gray;
+    margin-bottom: 15px;
+}
+input[type=date]:hover ,input[type=text]:hover,select:hover,input[type=email]:hover,input[type=tel]:hover,input[type=url]:hover{
+   background-color: #E8E8E8;
+   cursor:pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #E8E8E8;   
+    color:black; 
+}
+input:focus {
+    background-color: #ACB0B0;   
+}
+input:focus {
+    background-color: #ACB0B0;   
+}
+.content
+{
+    display:inline-block;
+    width:50%;
+    border:2px solid gray;
+    border-radius:15px;
+    background-color:#fff;
+
+}
+.content-c
+{
+    text-align:center;
+    width:100%;
+    height:100%;
+    padding-top:1cm;
+}
+.content ul{
+	    list-style: none;
+}
+
+#top-menu {
+    width: 40%;
+    float: right;
+    text-align: center;
+    padding: 0;
+    display: table;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#top-menu li {
+    z-index: 1000;
+    display: table-cell;
+    max-width: 200px;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#top-menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+#top-menu li:hover a {
+    border-bottom: 2px solid #ffffff;
+}
+
+
+.contact
+{
+ padding-left:5cm;
+ font-family: cursive;
+}
+a:link
+{
+     text-decoration: none;
+    color:white;
+  
+}
+a.amail:link
+{
+    margin-left: 15px;
+}
+
+#myFirstWebsite
+{
+ visibility: hidden;
+}
+#prenom,#telephone
+{
+    border:2px dotted blue;
+}
+input.error {
+    background-color: #ffbab4;
+    color: #ffffff;
+    border: 2px dotted #ff0000;
+}
+.error-message {
+    color: #ff0000;
+}  
+
+
+#token
+{
+    margin-top:2cm;
+}
